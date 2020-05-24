@@ -1,0 +1,15 @@
+.button{
+    margin-top: 10px;
+    height: 58px;
+    width:  389px;
+    justify-content: center;
+    border-radius: 5px;
+    outline: none;
+    font-family: 'Segoe UI';
+    font-style: bold;
+    font-size: 27px;
+    display: grid;
+    background-color:rgb(255, 179, 35);
+    grid-template-columns: repeat(4,25%);
+    grid-template-rows: 1fr 48px 48px 48px 48px 48px;
+}
