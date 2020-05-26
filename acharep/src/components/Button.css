@@ -9,7 +9,8 @@
     font-style: bold;
     font-size: 27px;
     display: grid;
+    overflow: hidden;
     background-color:rgb(255, 179, 35);
-    grid-template-columns: repeat(4,25%);
-    grid-template-rows: 1fr 48px 48px 48px 48px 48px;
+    
+    
 }

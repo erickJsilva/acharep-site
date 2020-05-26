@@ -6,11 +6,13 @@ import InputAdornment from '@material-ui/core/InputAdornment';
 import FormControl from '@material-ui/core/FormControl';
 import TextField from '@material-ui/core/TextField';
 import Grid from '@material-ui/core/Grid';
-import AccountCircle from '@material-ui/icons/AccountCircle';
+import PermIdentity from '@material-ui/icons/PermIdentity';
+import Lock from '@material-ui/icons/Lock';
 
 const useStyles = makeStyles((theme) => ({
   margin: {
-    margin: theme.spacing(1),
+    margin: theme.spacing(2),
+    
   },
 }));
 
@@ -19,9 +21,13 @@ export default function InputWithIcon() {
   return (
     <div>
       <div className={classes.margin}>
-        <Grid spacing={1} alignItems="flex-end">
-            <AccountCircle/>
-            <TextField id="input-with-icon-grid" label="Login" />
+        <Grid container alignItems="flex-">
+            <PermIdentity/>
+            <TextField fullWidth id="input-with-icon-grd" label="Login: " />
+        </Grid>
+        <Grid container alignItems="flex-">
+            <Lock/>
+            <TextField fullWidth id="input-with-icon-grid" label="Senha: " />
         </Grid>
       </div>
     </div>

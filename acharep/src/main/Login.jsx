@@ -8,11 +8,11 @@ import TLogin from './TLogin'
 export default class Login extends Component {
     render() {
     return (
-      <div>
+      <div >
         <div className="box">
-          <TLogin/>
+          <TLogin />
         </div>
-        <Button label="Cadastrar"/>
+        <Button label="Logar"/>
       </div>
     )
 
