@@ -14,5 +14,5 @@ ReactDOM.render(
         </div>
 
     </div>
-, document.getElementById('root'));
+, document.getElementById('app'));
 serviceWorker.unregister();
